@@ -1,8 +1,7 @@
 import './App.css';
 // import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPages';
-import "./styles.css";
-
+// import "./style.css";
 
 function App() {
   return (

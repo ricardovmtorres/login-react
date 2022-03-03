@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "./style.css";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -13,7 +13,7 @@ const LoginPage = () => {
     return (
         <div id="login">
             <h1 className="title">Login do sistema</h1>
-            <form className="form">
+            <form className="form" onSubmit={handleSubmit}>
                 <div className="field">
                     <label htmlFor="email">Email</label>
                     <input 
